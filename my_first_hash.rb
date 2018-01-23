@@ -1,12 +1,14 @@
 def my_hash
-  hash_inside = {"key" => "value"}
+  hash_inside = {
+    "key" => "value"
+  }
 end
 
 
 def shipping_manifest
   shipping_manifest = hash_inside
   hash_inside = {
-    "whale bone corsets" => 5,
+    "whale bone corsets" => 5, 
     "porcelain vases" => 2, 
     "oil paintings" => 3
   }
