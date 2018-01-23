@@ -1,5 +1,5 @@
 def my_hash
-  hash_inside = {"key","value"}
+  hash_inside = {"key" =>"value"}
 end
 
 
