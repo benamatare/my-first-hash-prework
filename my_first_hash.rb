@@ -5,7 +5,11 @@ end
 
 def shipping_manifest
   shipping_manifest = hash_inside
-  hash_inside = {"whale bone corsets" => 5, "porcelain vases" = > 2, "oil paintings" => 3}
+  hash_inside = {
+    "whale bone corsets" => 5, 
+    "porcelain vases" => 2, 
+    "oil paintings" => 3
+  }
 end
 #set a variable called `shipping_manifest`, equal to a hash
 #fill that hash with key/value pairs that describe the following information:
